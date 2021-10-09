@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> image hover open </title>
+</head>
+<style>
+    .row {
+    width: 16%;
+    height: 275px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    transition: .5s;
+    }
+    .colum_1, .colum_2, .colum_4, .colum_5, .center_colum {
+    width: 95%;
+    margin: 10px;
+    position: absolute;
+    transition: .5s;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.row:hover .colum_1 {
+    transform: rotate(-50deg);
+    left: -161%;
+    top: 72%;
+}
+.row:hover .colum_2 {
+    left: -83%;
+    transform: rotate(-27deg);
+    top: 18%!important;
+}
+.row:hover .colum_4 {
+    left: 101%;
+    transform: rotate(27deg);
+    top: 18%;
+}
+.row:hover .colum_5 {
+    left: 181%;
+    transform: rotate(50deg);
+    top: 72%;
+    z-index: -1;
+}
+    img{
+    width: 100%;
+    margin: 10px;
+    }
+.center_colum{
+    z-index: 99;
+}
+</style>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="colum_1"><img src="image/Deborah-Ho.png" alt=""></div><!--cooum-->
+            <div class="colum_2"><img src="image/Esther-An.png"></div><!--cooum-->
+            <div class="center_colum"><img src="image/Gerry-George.png" alt=""></div><!--cooum-->
+            <div class="colum_4"><img src="image/Goh-Swee-Chen.jpg" alt=""></div><!--cooum-->
+            <div class="colum_5"><img src="image/Grace-Fu-Tight-Crop.jpg" alt=""></div><!--cooum-->
+        </div><!--row-->
+    </div><!--container-->
+</body>
+</html>

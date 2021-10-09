@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\Sg client(linkrdin)\\Popup_codes"
+		},
+		{
+			"path": "..\\..\\..\\Sg client(linkrdin)\\image"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\Hello.js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Js practice project"
+	}
+}
